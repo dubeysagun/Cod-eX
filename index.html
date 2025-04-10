@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePrac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://codex-psi-pied.vercel.app" >Home</a></li>
+            <li><a href="https://complexify.vercel.app" >Complexify</a></li>
+            <li><a href="https://codelogic-frontend.vercel.app" >CodeLogic</a></li>
+            <li><a href="https://code-corrector-frontend.vercel.app" >CodeHelper</a></li>
+        </ul>
+    </nav>
+    <br><br><br>
+    <div class="container">
+        <h1>CodePrac - Question Generator</h1>
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <label for="topic">Enter Topic:</label>
+        <input type="text" id="topic" placeholder="e.g. Arrays">
+        <button onclick="generateQuestion()">Generate</button>
+        <div id="output"></div>
+    </div>
+    <br><br><br><br>
+    <footer>
+        <p>&copy; 2025 CodePrac. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

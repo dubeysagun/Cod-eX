@@ -1,0 +1,150 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff7eb3;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    color: #ff4f81;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #ff7eb3;
+    color: #000;
+}
+
+/* Container */
+.container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    display: inline-block;
+    max-width: 600px;
+    margin-top: 100px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    border: 2px solid #ff7eb3;
+    outline: none;
+}
+
+/* Button */
+button {
+    background: #ff7eb3;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff4f81;
+}
+
+/* Output */
+pre {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+}
+
+.social-icons a:hover img {
+    opacity: 1;
+}
